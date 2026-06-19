@@ -3,8 +3,8 @@ import subprocess
 def create_fix_branch():
 
     subprocess.run(
-        ["git", "checkout", "-b", "auto-fix-branch"],
-        check=False
+    ["git", "checkout", "-B", "auto-fix-branch"],
+    check=False
     )
 
     subprocess.run(
